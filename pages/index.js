@@ -29,13 +29,13 @@ export default function Home() {
 
       <div className="grid font-bold grid-cols-4 gap-4">
         <Link href="https://github.com/" className="text-md font-light mb-8">
-          <FontAwesomeIcon style={{fontSize:"26px"}} icon={faLinkedin}></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faLinkedin} size={'2x'}></FontAwesomeIcon>
         </Link>
         <Link href="https://linkedin.com/" className="text-md font-light mb-8">
-          <FontAwesomeIcon style={{fontSize:"26px"}} icon={faGithub}></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faGithub} size={'2x'}></FontAwesomeIcon>
         </Link>
         <Link href="https://twitter.com/" className="text-md font-light mb-8">
-          <FontAwesomeIcon style={{fontSize:"26px"}} icon={faTwitter}></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faTwitter} size={'2x'}></FontAwesomeIcon>
         </Link>
       </div>
       </main>
