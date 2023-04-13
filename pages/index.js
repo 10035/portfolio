@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Hi, I'm Louis</h1>
+        <h1 className="text-4xl font-bold mb-4">Hi, I&rsquo;m Louis</h1>
         <p className="text-lg font-medium mb-8">Technologist, Founder, Human</p>
         <div className="grid font-bold grid-cols-3 gap-4">
           My Projects
