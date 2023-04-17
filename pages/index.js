@@ -4,6 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
+import MyScene from '../components/3d/MyScene'
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       </Head>
 
       <main className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Hi, I&rsquo;m Louis</h1>
+        <h1 className="text-4xl font-bold mb-4">Hola, I&rsquo;m Louis <MyScene /></h1>
         <p className="text-lg font-medium mb-8">Technologist, Founder, Human</p>
         <div className="grid font-bold grid-cols-3 gap-4">
           My Projects
